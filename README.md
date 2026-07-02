@@ -169,7 +169,6 @@ The `/api/v1/best-stories` endpoint is protected by ASP.NET Core's built-in `Add
 
 ## Future Improvements
 
-- **Polly** — replace the manual retry and circuit breaker implementations.
 - **Background refresh** — proactively refresh caches before expiry to eliminate cold-miss latency.
 - **Forwarded-headers support** — read `X-Forwarded-For` so rate limiting works correctly behind a reverse proxy.
 - **Observability** — expose metrics (cache hit rate, circuit breaker state, retry counts) via OpenTelemetry.
